@@ -10,6 +10,8 @@ import kb from '../images/kb.jpg';
 import barath from '../images/barath.jpg';
 import ish from '../images/ish.jpeg';
 import ankit from '../images/ankit.jpg';
+import ravi from '../images/ravi.png';
+import tulasi from '../images/tulasi.png';
 
 export const contacts = [
     {
@@ -41,7 +43,7 @@ export const contacts = [
     },
     {
         "name": "Ravi",
-        "pic": "http://speakingtigerbooks.com/wp-content/uploads/2018/07/no-avatar.jpg",
+        "pic": ravi,
         "msgDay": moment().format("ddd"),
         "msgTime": moment().format("kk:mm"),
         "msg": "A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday daaa!!!",
@@ -50,7 +52,7 @@ export const contacts = [
     },
     {
         "name": "Thulasi",
-        "pic": "http://speakingtigerbooks.com/wp-content/uploads/2018/07/no-avatar.jpg",
+        "pic": tulasi,
         "msgDay": moment().format("ddd"),
         "msgTime": moment().subtract(7, 'minutes').format('kk:mm'),
         "msg": "From good friends and true, from old friends and new, may good luck go with you and happiness too! Happy birthday dude!!!",
